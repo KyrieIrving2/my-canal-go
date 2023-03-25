@@ -105,6 +105,7 @@ INSERT INTO `db1`.`tb01`(`id`, `name`) VALUES (9, '999');
 程序控制台打印
 ![img_15.png](img_15.png)
 此时在redis里面也会添加一条记录
+
 ![img_16.png](img_16.png)
 
 ### b.修改一条记录
@@ -114,6 +115,7 @@ UPDATE `db1`.`tb01` SET `id` = 9, `name` = '999999' WHERE `id` = 9 AND `name` = 
 程序控制台打印
 ![img_17.png](img_17.png)
 redis里面的数据也更新了
+
 ![img_18.png](img_18.png)
 
 ### c.删除一条数据
@@ -123,6 +125,7 @@ DELETE FROM `db1`.`tb01`  WHERE `id` = 9 ;
 程序控制台打印
 ![img_19.png](img_19.png)
 redis同步更新
+
 ![img_20.png](img_20.png)
 
 完结散花！！！
